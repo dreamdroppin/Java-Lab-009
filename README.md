@@ -16,7 +16,7 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+Mutable. This can be modified compared to Immutable which can't. Changes are made to p.x and p.y.
 ```
 
 ```java
@@ -47,7 +47,8 @@ public class Puzzler {
     * Explain how the return values from #3 and #4 differ.
 
 ```text
-PUT ANSWER TO #5 HERE
+#3 finds the center of a rectangle using x and y points.
+#4 returns a double value using the p1 and p2 points, because it is 2D.
 ```
 
 ```java
@@ -87,14 +88,18 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+(5, 8)
+(6, 9)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+No. Trick question almost. p1 and p2
+do not access the same memory location,
+even if they're both in Point. p1 is in
+the center, p2 is only for after it's growth.
 ```
 
 ```java
